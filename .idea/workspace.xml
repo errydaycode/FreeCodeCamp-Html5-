@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7bbbbf7-f965-4339-bdfc-721ef948bb25" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666623537250</updated>
-      <workItem from="1666623538356" duration="8661000" />
+      <workItem from="1666623538356" duration="9933000" />
     </task>
     <servers />
   </component>
@@ -66,5 +65,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added forms and buttons" />
   </component>
 </project>
