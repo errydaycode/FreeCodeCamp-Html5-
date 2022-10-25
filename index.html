@@ -9,7 +9,7 @@
     <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 
     <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-
+    <div>
         <p>Things cats love:</p>
             <ul>
                 <li>Sleep</li>
@@ -23,24 +23,25 @@
                 <li>Veterinarians</li>
                 <li>Hair-dryer</li>
             </ol>
+    </div>
         <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-            <input type="text" placeholder="my BIG DICK" required>
+            <input type="text" placeholder="cat Photo URL" required>
             <button type="submit">Submit</button>
         </form>
 
     <form>
         <lable>
-            <input  name="indoor-outdoor" type="radio">Indoor
+            <input id="indoor" value="indoor" name="indoor-outdoor" type="radio" checked>Indoor
         </lable>
         
         <lable>
-            <input name="indoor-outdoor" type="radio">Outdoor
+            <input id="outdoor" value="outdoor" name="indoor-outdoor" type="radio">Outdoor
         </lable>
     </form>
     <form>
-        <label for="loving"><input id="loving" name="personality" type="checkbox"> Small Dick</label>
-        <label for="loving"><input type="checkbox" id="loving" name="peronality"> Common Dick</label>
-        <label for="loving"><input type="checkbox" id="loving" name="peronality"> Big Dick</label>
+        <label for="loving"> <input id="loving" value="loving" name="personality" type="checkbox" checked> Loving </label>
+        <label for="lazy"><input id="lazy" value="lazy" name="personality" type="checkbox"> Lazy</label>
+        <label for="energetic"><input id="energetic" value="energetic" name="personality" type="checkbox"> Energetic</label>
 
 
     </form>
@@ -50,5 +51,5 @@
 </main>
 
 <footer id="footer">
-    small dick
+    Umka Cat
 </footer>
